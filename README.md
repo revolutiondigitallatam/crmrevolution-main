@@ -1,39 +1,39 @@
-# whaticket
-Sistema de Auto Atendimento
-=====================================
-ESQUEMA PARA INSTALAÇÃO DO WHATICKET
-=====================================
+# CRMREVOLUTION
+Sistema de autoservicio
+========================================
+DIAGRAMA DE INSTALACIÓN DEL WHATICKET
+========================================
 
-SISTEMA OPERACIONAL UBUNTU 24.04
+SISTEMA OPERATIVO UBUNTU 24.04
 
--------------------------------------
+-------------------------------
 
-1. Contratar uma VPS: https://www.seuprovedor.com.br/servidor-vps
+1. Contrate un VPS:
 
- - Eu comecei com o plano KVM2. Depois de um tempo, com a demanda aumentando, eu mudei para o KVM4.
+ - Empecé con el plan KVM2. Después de un tiempo, ante el aumento de la demanda, cambié a KVM4.
 
- - Comece devagar!
+ - ¡Empieza despacio!
 
-2. Comprar um domínio: https://www.seuprovedor.com.br/registro-de-dominio
+2. Compra un dominio:
 
-3. Criar 2 subdomínios para o whaticket
+3. Crea 2 subdominios para whaticket
 
-4. Baixar o fonte do Whaticket: https://chat.whatsapp.com/LOkLZN8YnUiIsdny54EyCS
+4. Descargue la fuente de Whaticket:
 
-5. Subir o código fonte para o seu github
+5. Sube el código fuente a tu github.
 
-6. Instalar o whaticket
+6. Instalar whaticket
 
-6.1 Fazer o acesso remoto via ssh
+6.1 Acceso remoto vía ssh
 
-6.2 Criar uma conta para o usuário deploy
+6.2 Crear una cuenta para el usuario de implementación
 
-6.3 Adicionar o usuário deploy ao grupo sudo
+6.3 Agregar el usuario de implementación al grupo sudo
 
-6.4 Acessar a VPS com o usuário deploy
+6.4 Acceder al VPS con el usuario de implementación
 
 
-COMANDO DE INSTALAÇÃO DO WHATICKET
+COMANDO DE INSTALACIÓN DE CRMREVOLUTION
 
 sudo apt install -y git && git clone https://github.com/weliton2k/instalador-whaticket-main-v.10.0.1.git && sudo chmod -R 777 instalador-whaticket-main-v.10.0.1 && cd instalador-whaticket-main-v.10.0.1 && sudo ./install_primaria
 
